@@ -637,7 +637,7 @@ void * Vlan_Enable(void *Arg)
         }
 
         //Get status of VLAN link
-        while(iIterator < 10)
+        while(iIterator < 20)
         {
             if (ANSC_STATUS_FAILURE == Vlan_GetTaggedVlanInterfaceStatus(pEntry->Name, &status))
             {
