@@ -653,7 +653,7 @@ void * Vlan_Enable(void *Arg)
 
             iIterator++;
             sleep(2);
-            CcspTraceInfo(("%s-%d: Interface Status(%d), retry-count=%d \n", __FUNCTION__, __LINE__, status, iIterator));
+            CcspTraceInfo(("%s-%d: Debug log Interface Status(%d), retry-count=%d \n", __FUNCTION__, __LINE__, status, iIterator));
         }
         long uptime = 0;
         get_uptime(&uptime);
